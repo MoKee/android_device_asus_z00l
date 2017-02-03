@@ -16,10 +16,10 @@
 # inherit from common msm8916-common
 -include device/asus/msm8916-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/asus/Z00L
+DEVICE_PATH := device/asus/z00l
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Z00L
+TARGET_OTA_ASSERT_DEVICE := Z00L z00l
 
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
@@ -31,4 +31,4 @@ TARGET_KERNEL_CONFIG := Z00L_defconfig
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/asus/Z00L/BoardConfigVendor.mk
+-include vendor/asus/z00l/BoardConfigVendor.mk
