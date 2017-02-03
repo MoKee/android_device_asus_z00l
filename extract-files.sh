@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=Z00L
+export DEVICE=z00l
 export DEVICE_COMMON=msm8916-common
 export VENDOR=asus
 
