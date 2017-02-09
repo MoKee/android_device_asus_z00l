@@ -19,7 +19,7 @@
 DEVICE_PATH := device/asus/z00l
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Z00L z00l
+TARGET_OTA_ASSERT_DEVICE := Z00L,z00l
 
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
